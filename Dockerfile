@@ -1,7 +1,7 @@
 FROM python:3.9.5-buster
 
-WORKDIR /wbb
-RUN chmod 777 /wbb
+WORKDIR /MadBoyX
+RUN chmod 777 /MadBoyX
 RUN apt-get update -y
 RUN apt-get install -y wget curl bash git neofetch sudo software-properties-common ffmpeg
 
@@ -18,4 +18,4 @@ RUN pip3 install --no-cache-dir -U -r requirements.txt
 COPY . .
 
 #Starting Bot
-CMD ["python3", "-m", "wbb"]
+CMD ["python3", "-m", "MadBoyX"]
