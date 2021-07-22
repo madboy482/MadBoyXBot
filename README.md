@@ -1,1 +1,5 @@
 # MadBoyXBot
+
+# Credits :
+- MadBoy
+- HamkerCat
